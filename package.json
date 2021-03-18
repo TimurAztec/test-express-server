@@ -1,0 +1,22 @@
+{
+  "name": "my-variant",
+  "version": "1.0.0",
+  "description": "My variant of a backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "set DEBUG=* & nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PING LORD",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cassandra-driver": "^4.6.1",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
